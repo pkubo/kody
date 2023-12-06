@@ -10,8 +10,12 @@ public class Main {
         We have two monkeys, a and b, and the parameters aSmile and bSmile indicate if each is smiling.
         We are in trouble if they are both smiling or if neither of them is smiling. Return true if we are in trouble.
          */
-
         //System.out.println(MonkeyTrouble.monkeyTrouble(true,false));
+
+        /*
+        Given two int values, return their sum. Unless the two values are the same, then return double their sum.
+         */
+        //System.out.println(SumDouble.sumDouble(15,26));
 
     }
 }
