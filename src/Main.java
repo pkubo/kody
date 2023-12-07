@@ -99,5 +99,38 @@ public class Main {
          */
         //System.out.println(In1020.in1020(12,99));
 
+        /*
+        We'll say that a number is "teen" if it is in the range 13..19 inclusive.
+        Given 3 int values, return true if 1 or more of them are teen.
+         */
+        //System.out.println(HasTenn.hasTeen(13,20,10));
+
+        /*
+        We'll say that a number is "teen" if it is in the range 13..19 inclusive. Given 2 int values,
+        return true if one or the other is teen, but not both.
+         */
+        //System.out.println(LoneTeen.loneTeen(13,99));
+
+        /*
+        Given a string, if the string "del" appears starting at index 1, return a string where that "del" has been deleted.
+        Otherwise, return the string unchanged.
+         */
+        //System.out.println(DelDel.delDel("adelbc"));
+
+        /*
+        Return true if the given string begins with "mix", except the 'm' can be anything, so "pix", "9ix" .. all count.
+         */
+        //System.out.println(MixStart.mixStart("pix snacks"));
+
+        /*
+        Given a string, return a string made of the first 2 chars (if present),
+        however include first char only if it is 'o' and include the second only if it is 'z', so "ozymandias" yields "oz".
+         */
+        //System.out.println(StartOz.startOz("bzoo"));
+
+        /*
+        Given three int values, a b c, return the largest.
+         */
+        //System.out.println(IntMax.intMax(1,2,3));
     }
 }
