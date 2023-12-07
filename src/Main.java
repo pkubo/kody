@@ -23,7 +23,6 @@ public class Main {
         //System.out.println(Diff21.diff21(25));
 
         /*
-
         We have a loud talking parrot. The "hour" parameter is the current hour time in the range 0..23.
         We are in trouble if the parrot is talking and the hour is before 7 or after 20. Return true if we are in trouble.
          */
@@ -50,6 +49,55 @@ public class Main {
         However, if the string already begins with "not", return the string unchanged.
          */
         //System.out.println(NotString.notString("hello"));
+
+        /*
+        Given a non-empty string and an int n, return a new string where the char at index n has been removed.
+        The value of n will be a valid index of a char in the original string.
+         */
+        //System.out.println(MissingChar.missingChar("hello",3));
+
+        /*
+        Given a string, return a new string where the first and last chars have been exchanged.
+         */
+        //System.out.println(FrontBack.frontBack("code"));
+
+        /*
+        Given a string, we'll say that the front is the first 3 chars of the string. If the string length is less than 3, the front is whatever is there.
+        Return a new string which is 3 copies of the front.
+         */
+        //System.out.println(Front3.front3("java"));
+
+        /*
+        Given a string, take the last char and return a new string with the last char added at the front and back, so "cat" yields "tcatt".
+        The original string will be length 1 or more.
+         */
+        //System.out.println(BackAround.backAround("cat"));
+
+        /*
+        Return true if the given non-negative number is a multiple of 3 or a multiple of 5.
+         */
+        //System.out.println(Or35.or35(33));
+
+        /*
+        Given a string, take the first 2 chars and return the string with the 2 chars added at both the front and back, so "kitten" yields"kikittenki".
+        If the string length is less than 2, use whatever chars are there.
+         */
+        //System.out.println(Front22.front22("world"));
+
+        /*
+        Given a string, return true if the string starts with "hi" and false otherwise.
+         */
+        //System.out.println(StartHi.startHi("world"));
+
+        /*
+        Given two temperatures, return true if one is less than 0 and the other is greater than 100.
+         */
+        //System.out.println(IcyHot.icyHot(120,-15));
+
+        /*
+        Given 2 int values, return true if either of them is in the range 10..20 inclusive.
+         */
+        //System.out.println(In1020.in1020(12,99));
 
     }
 }
