@@ -137,5 +137,29 @@ public class Main {
         Given 2 int values, return whichever value is nearest to the value 10, or return 0 in the event of a tie.
          */
         //System.out.println(Close10.close10(5,12));
+
+        /*
+        Given 2 int values, return true if they are both in the range 30..40 inclusive,
+        or they are both in the range 40..50 inclusive.
+        */
+        //System.out.println(In3050.in3050(31,30));
+
+        /*
+        Given 2 positive int values, return the larger value that is in the range 10..20 inclusive, or return 0 if neither is in that range.
+         */
+
+        //System.out.println(Max1020.max1020(15,28));
+
+        /*
+        Return true if the given string contains between 1 and 3 'e' chars.
+         */
+
+        //System.out.println(StringE.stringE("Hello"));
+
+        /*
+        Given two non-negative int values, return true if they have the same last digit, such as with 27 and 57.
+         */
+
+        System.out.println(LastDigit.lastDigit(16,86));
     }
 }
