@@ -132,5 +132,10 @@ public class Main {
         Given three int values, a b c, return the largest.
          */
         //System.out.println(IntMax.intMax(1,2,3));
+
+        /*
+        Given 2 int values, return whichever value is nearest to the value 10, or return 0 in the event of a tie.
+         */
+        //System.out.println(Close10.close10(5,12));
     }
 }
