@@ -160,6 +160,19 @@ public class Main {
         Given two non-negative int values, return true if they have the same last digit, such as with 27 and 57.
          */
 
-        System.out.println(LastDigit.lastDigit(16,86));
+        //System.out.println(LastDigit.lastDigit(16,86));
+
+        /*
+        Given a string, return a new string where the last 3 chars are now in upper case. If the string has less than 3 chars, uppercase whatever is there.
+         */
+
+        //System.out.println(EndUp.endUp("Hello"));
+
+        /*
+        Given a non-empty string and an int N, return the string made starting with char 0, and then every Nth char of the string.
+        So if N is 3, use char 0, 3, 6, ... and so on. N is 1 or more.
+         */
+
+        //System.out.println(EveryNth.everyNth("Hello",2));
     }
 }
