@@ -174,5 +174,25 @@ public class Main {
          */
 
         //System.out.println(EveryNth.everyNth("Hello",2));
+
+
+        /*
+        Given a string and a non-negative int n, return a larger string that is n copies of the original string.
+        */
+        //StringTimes ob1 = new StringTimes();
+        //ob1.stringTimes("hello ", 5);
+
+        /*
+        Given a string and a non-negative int n, we'll say that the front of the string is the first 3 chars,
+        or whatever is there if the string is less than length 3. Return n copies of the front;
+         */
+        //FrontTimes ob1 = new FrontTimes();
+        //ob1.frontTimes("hello",5);
+
+        /*
+        Count the number of "xx" in the given string. We'll say that overlapping is allowed, so "xxx" contains 2 "xx".
+         */
+       //CountXX ob1 = new CountXX();
+        //ob1.countXX("korxxelexxpkx");
     }
 }
