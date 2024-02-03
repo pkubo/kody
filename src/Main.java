@@ -192,7 +192,26 @@ public class Main {
         /*
         Count the number of "xx" in the given string. We'll say that overlapping is allowed, so "xxx" contains 2 "xx".
          */
-       //CountXX ob1 = new CountXX();
+        //CountXX ob1 = new CountXX();
         //ob1.countXX("korxxelexxpkx");
+
+        /*
+        Given a string, return true if the first instance of "x" in the string is immediately followed by another "x".
+         */
+        //DoubleX ob1 = new DoubleX();
+        //ob1.doubleX("axxbb");
+
+        /*
+        Given a string, return a new string made of every other char starting with the first
+         */
+        //StringBits ob1 = new StringBits();
+        //ob1.stringBits("hello");
+
+        /*
+        Given a non-empty string like "Code" return a string like "CCoCodCode".
+         */
+        StringSplosion ob1 = new StringSplosion();
+        ob1.stringSplosion("code");
+
     }
 }
