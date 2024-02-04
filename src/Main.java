@@ -210,8 +210,26 @@ public class Main {
         /*
         Given a non-empty string like "Code" return a string like "CCoCodCode".
          */
-        StringSplosion ob1 = new StringSplosion();
-        ob1.stringSplosion("code");
+        //StringSplosion ob1 = new StringSplosion();
+        //ob1.stringSplosion("code");
+
+        /*
+        Given a string, return the count of the number of times that a substring length 2 appears in the string and also as the last 2 chars of the string
+         */
+        //Last2 ob1 = new Last2();
+        //ob1.last2("xaxxaxaxx");
+
+        /*
+        Given an array of ints, return the number of 9's in the array.
+         */
+        //ArrayCount9 ob1 = new ArrayCount9();
+        //ob1.arrayCount9(new int []{1, 9, 9, 3, 7});
+
+        /*
+        Given an array of ints, return true if one of the first 4 elements in the array is a 9. The array length may be less than 4.
+         */
+        //ArrayFront9 ob1 = new ArrayFront9();
+        //ob1.arrayFront9(new int[]{1, 2, 3, 4, 5});
 
     }
 }
