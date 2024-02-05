@@ -231,5 +231,32 @@ public class Main {
         //ArrayFront9 ob1 = new ArrayFront9();
         //ob1.arrayFront9(new int[]{1, 2, 3, 4, 5});
 
+        /*
+        Given an array of ints, return true if the sequence of numbers 1, 2, 3 appears in the array somewhere.
+         */
+        //Array123 ob1 = new Array123();
+        //ob1.array123(new int[]{1, 1, 2, 4, 1});
+
+        /*
+        Given 2 strings, a and b, return the number of the positions where they contain the same length 2 substring.
+        So "xxcaazz" and "xxbaaz" yields 3, since the "xx", "aa", and "az" substrings appear in the same place in both strings.
+         */
+        //StringMatch ob1 = new StringMatch();
+        //ob1.stringMatch("xxcaazz", "xxbaaz");
+
+        /*
+        Given a string, return a version where all the "x" have been removed. Except an "x" at the very start or end should not be removed.
+         */
+        //StringX ob1 = new StringX();
+        //ob1.stringX("xxHxix");
+
+        /*
+        Given a string, return a string made of the chars at indexes 0,1, 4,5, 8,9 ...
+         */
+        //AltPairs ob1 = new AltPairs();
+        //ob1.altPairs("kitten");
+
+
+
     }
 }
