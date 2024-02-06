@@ -256,6 +256,32 @@ public class Main {
         //AltPairs ob1 = new AltPairs();
         //ob1.altPairs("kitten");
 
+        /*
+        Suppose the string "yak" is unlucky. Given a string, return a version where all the "yak" are removed, but the "a" can be any char. The "yak" strings will not overlap.
+         */
+        //StringYak ob1 = new StringYak();
+        //ob1.stringYak("yak123ya");
+
+        /*
+        Given an array of ints, return the number of times that two 6's are next to each other in the array. Also count instances where the second "6" is actually a 7.
+         */
+        //Array667 ob1 = new Array667();
+        //ob1.array667(new int[]{6,6,2});
+
+        /*
+        Given an array of ints, we'll say that a triple is a value appearing 3 times in a row in the array. Return true if the array does not contain any triples.
+         */
+        //NoTriples ob1 = new NoTriples();
+        //ob1.noTriples(new int[]{1,1,2,2,2,1});
+
+        /*
+        Given an array of ints, return true if it contains a 2, 7, 1 pattern: a value, followed by the value plus 5, followed by the value minus 1.
+        Additionally the 271 counts even if the "1" differs by 2 or less from the correct value.
+         */
+        Has271 ob1 = new Has271();
+        ob1.has271(new int[]{1,2,7,1});
+
+
 
 
     }
