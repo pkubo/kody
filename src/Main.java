@@ -278,8 +278,28 @@ public class Main {
         Given an array of ints, return true if it contains a 2, 7, 1 pattern: a value, followed by the value plus 5, followed by the value minus 1.
         Additionally the 271 counts even if the "1" differs by 2 or less from the correct value.
          */
-        Has271 ob1 = new Has271();
-        ob1.has271(new int[]{1,2,7,1});
+        //Has271 ob1 = new Has271();
+        //ob1.has271(new int[]{1,2,7,1});
+
+        /*
+        Given a string name, e.g. "Bob", return a greeting of the form "Hello Bob!".
+         */
+        //HelloName ob1 = new HelloName();
+        //ob1.helloName("Bob");
+
+        /*
+        Given two strings, a and b, return the result of putting them together in the order abba, e.g. "Hi" and "Bye" returns "HiByeByeHi".
+         */
+        //MakeAbba ob1 = new MakeAbba();
+        //ob1.makeAbba("Hi","Bye");
+
+        /*
+        The web is built with HTML strings like "<i>Yay</i>" which draws Yay as italic text.
+        In this example, the "i" tag makes <i> and </i> which surround the word "Yay".
+        Given tag and word strings, create the HTML string with tags around the word, e.g. "<i>Yay</i>".
+         */
+        //MakeTags ob1 = new MakeTags();
+        //ob1.makeTags("i","yak");
 
 
 
