@@ -301,6 +301,24 @@ public class Main {
         //MakeTags ob1 = new MakeTags();
         //ob1.makeTags("i","yak");
 
+        /*
+        Given an "out" string length 4, such as "<<>>", and a word, return a new string where the word is in the middle of the out string, e.g. "<<word>>".
+         */
+        //MakeOutWord ob1 = new MakeOutWord();
+        //ob1.makeOutWord("<<>>","Yay");
+
+        /*
+        Given a string, return a new string made of 3 copies of the last 2 chars of the original string. The string length will be at least 2.
+         */
+        //ExtraEnd ob1 = new ExtraEnd();
+        //ob1.extraEnd("hello");
+
+        /*
+        Given a string, return the string made of its first two chars, so the String "Hello" yields "He". If the string is shorter than length 2, return whatever there is,
+        so "X" yields "X", and the empty string "" yields the empty string "".
+         */
+        //FirstTwo ob1 = new FirstTwo();
+        //ob1.firstTwo("Hello");
 
 
 
