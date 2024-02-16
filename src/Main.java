@@ -339,5 +339,23 @@ public class Main {
         //ComboString ob1 = new ComboString();
         //ob1.comboString("Hello", "Hi");
 
+        /*
+        Given 2 strings, return their concatenation, except omit the first char of each. The strings will be at least length 1.
+         */
+        //NonStart ob1 = new NonStart();
+        //ob1.nonStart("hello","there");
+
+        /*
+        Given a string, return a "rotated left 2" version where the first 2 chars are moved to the end. The string length will be at least 2.
+         */
+        //Left2 ob1 = new Left2();
+        //ob1.left2("Hello");
+
+        /*
+        Given a string, return a "rotated right 2" version where the last 2 chars are moved to the start. The string length will be at least 2.
+         */
+        //Right2 ob1 = new Right2();
+        //ob1.right2("Hello");
+
     }
 }
