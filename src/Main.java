@@ -357,5 +357,23 @@ public class Main {
         //Right2 ob1 = new Right2();
         //ob1.right2("Hello");
 
+        /*
+        Given a string, return a string length 1 from its front, unless front is false, in which case return a string length 1 from its back. The string will be non-empty.
+         */
+        //TheEnd ob1 = new TheEnd();
+        //ob1.theEnd("Hello",true);
+
+        /*
+        Given a string, return a version without both the first and last char of the string. The string may be any length, including 0.
+         */
+        //WithouEnd2 ob1 = new WithouEnd2();
+        //ob1.withouEnd2("Hello");
+
+        /*
+        Given a string of even length, return a string made of the middle two chars, so the string "string" yields "ri". The string length will be at least 2.
+         */
+        //MiddleTwo ob1 = new MiddleTwo();
+        //ob1.middleTwo("string");
+
     }
 }
