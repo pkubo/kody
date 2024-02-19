@@ -375,5 +375,40 @@ public class Main {
         //MiddleTwo ob1 = new MiddleTwo();
         //ob1.middleTwo("string");
 
+        /*
+        Given a string, return true if it ends in "ly".
+         */
+        //EndsLy ob1 = new EndsLy();
+        //ob1.endsLy("oddly");
+
+        /*
+        Given a string and an int n, return a string made of the first and last n chars from the string. The string length will be at least n.
+         */
+        //NTwice ob1 = new NTwice();
+        //ob1.nTwice("hello",2);
+
+        /*
+        Given a string and an index, return a string length 2 starting at the given index. If the index is too big or too small to define a string length 2, use the first 2 chars. The string length will be at least 2.
+         */
+        //TwoChar ob1 = new TwoChar();
+        //ob1.twoChar("java",3);
+
+        /*
+        Given a string of odd length, return the string length 3 from its middle, so "Candy" yields "and". The string length will be at least 3.
+         */
+        //MiddleThree ob1 = new MiddleThree();
+        //ob1.middleThree("Candy");
+
+        /*
+        Given a string, return true if "bad" appears starting at index 0 or 1 in the string, such as with "badxxx" or "xbadxx" but not "xxbadxx". The string may be any length, including 0.
+         */
+        //HasBad ob1 = new HasBad();
+        //ob1.hasBad("badxx");
+
+        /*
+        Given a string, return a string length 2 made of its first 2 chars. If the string length is less than 2, use '@' for the missing chars.
+         */
+        //AtFirst ob1 = new AtFirst();
+        //ob1.atFirst("hello");
     }
 }
