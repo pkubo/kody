@@ -410,5 +410,77 @@ public class Main {
          */
         //AtFirst ob1 = new AtFirst();
         //ob1.atFirst("hello");
+
+        /*
+        Given 2 strings, a and b, return a new string made of the first char of a and the last char of b, so "yo" and "java" yields "ya". If either string is length 0, use '@' for its missing char.
+         */
+        //LastChars ob1 =new LastChars();
+        //ob1.lastChars("last","chars");
+
+        /*
+        Given two strings, append them together (known as "concatenation") and return the result. However, if the concatenation creates a double-char, then omit one of the chars, so "abc" and "cat" yields "abcat".
+         */
+        //ConCat ob1 = new ConCat();
+        //ob1.conCat("abc","cat");
+
+        /*
+        Given a string of any length, return a new string where the last 2 chars, if present, are swapped, so "coding" yields "codign".
+         */
+        //LastTwo ob1 = new LastTwo();
+        //ob1.lastTwo("coding");
+
+        /*
+        Given a string, if the string begins with "red" or "blue" return that color string, otherwise return the empty string.
+         */
+        //SeeColor ob1 = new SeeColor();
+        //ob1.seeColor("redxx");
+
+        /*
+        Given a string, return true if the first 2 chars in the string also appear at the end of the string, such as with "edited".
+         */
+        //FrontAgain ob1 = new FrontAgain();
+        //ob1.frontAgain("edited");
+
+        /*
+        Given two strings, append them together and return the result. However, if the strings are different lengths, omit chars from the longer string so it is the same length as the shorter string. So "Hello" and "Hi" yield "loHi". The strings may be any length.
+         */
+        //MinCat ob1 = new MinCat();
+        //ob1.minCat("Hello","hi");
+
+        /*
+        Given a string, return a new string made of 3 copies of the first 2 chars of the original string. The string may be any length. If there are fewer than 2 chars, use whatever is there.
+         */
+        //ExtraFront ob1 = new ExtraFront();
+        //ob1.extraFront("Hello");
+
+        /*
+        Given a string, if a length 2 substring appears at both its beginning and end, return a string without the substring at the beginning, so "HelloHe" yields "lloHe". The substring may overlap with itself, so "Hi" yields "". Otherwise, return the original string unchanged.
+         */
+        //Without2 ob1 = new Without2();
+        //ob1.without2("HelloHe");
+
+        /*
+        Given a string, return a version without the first 2 chars. Except keep the first char if it is 'a' and keep the second char if it is 'b'. The string may be any length. Harder than it looks.
+         */
+        //DeFront ob1 = new DeFront();
+        //ob1.deFront("Hello");
+
+        /*
+        Given a string and a second "word" string, we'll say that the word matches the string if it appears at the front of the string, except its first char does not need to match exactly. On a match, return the front of the string, or otherwise return the empty string. So, so with the string "hippo" the word "hi" returns "hi" and "xip" returns "hip". The word will be at least length 1.
+         */
+        //StartWord ob1 = new StartWord();
+        //ob1.startWord("hippo","hi");
+
+        /*
+        Given a string, if the first or last chars are 'x', return the string without those 'x' chars, and otherwise return the string unchanged.
+         */
+        //WithoutX ob1 = new WithoutX();
+        //ob1.withoutX("xHix");
+
+        /*
+        Given a string, if one or both of the first 2 chars is 'x', return the string without those 'x' chars, and otherwise return the string unchanged. This is a little harder than it looks.
+         */
+        //WithoutX2 ob1 = new WithoutX2();
+        //ob1.withoutX2("xHi");
     }
 }
