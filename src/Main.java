@@ -482,5 +482,42 @@ public class Main {
          */
         //WithoutX2 ob1 = new WithoutX2();
         //ob1.withoutX2("xHi");
+
+        /*
+        Given a string, return a string where for every char in the original, there are two chars.
+         */
+        //DoubleChar ob1 = new DoubleChar();
+        //ob1.doubleChar("The");
+
+        /*
+        Return the number of times that the string "hi" appears anywhere in the given string.
+         */
+        //CountHi ob1 = new CountHi();
+        //ob1.countHi("abc hi ho");
+
+        /*
+        Return true if the string "cat" and "dog" appear the same number of times in the given string.
+         */
+        //CatDog ob1 = new CatDog();
+        //ob1.catDog("catdog");
+
+        /*
+        Return the number of times that the string "code" appears anywhere in the given string, except we'll accept any letter for the 'd', so "cope" and "cooe" count.
+         */
+        //CountCode ob1 = new CountCode();
+        //ob1.countCode("aaaaaacodebbb");
+
+        /*
+        Given two strings, return true if either of the strings appears at the very end of the other string, ignoring upper/lower case differences
+         */
+        //EndOther ob1 = new EndOther();
+        //ob1.endOther("Hiabc","abc");
+
+        /*
+        Return true if the given string contains an appearance of "xyz" where the xyz is not directly preceeded by a period (.). So "xxyz" counts but "x.xyz" does not.
+         */
+        //XyzThere ob1 = new XyzThere();
+        //ob1.xyzThere("abcxyz");
+
     }
 }
