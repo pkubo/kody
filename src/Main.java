@@ -519,5 +519,24 @@ public class Main {
         //XyzThere ob1 = new XyzThere();
         //ob1.xyzThere("abcxyz");
 
+        /*
+        Return true if the given string contains a "bob" string, but where the middle 'o' char can be any char.
+         */
+        //BobThere ob1 = new BobThere();
+        //ob1.bobThere("abcbob");
+
+        /*
+        We'll say that a String is xy-balanced if for all the 'x' chars in the string, there exists a 'y' char somewhere later in the string. So "xxy" is balanced, but "xyx" is not. One 'y' can balance multiple 'x's. Return true if the given string is xy-balanced.
+         */
+        //XyBalance ob1 = new XyBalance();
+        //ob1.xyBalance("aaxbby");
+
+        /*
+        Given two strings, a and b, create a bigger string made of the first char of a, the first char of b, the second char of a, the second char of b, and so on. Any leftover chars go at the end of the result.
+         */
+        //MixString ob1 = new MixString();
+        //ob1.mixString("abc" , "xyz");
+
+
     }
 }
