@@ -537,6 +537,40 @@ public class Main {
         //MixString ob1 = new MixString();
         //ob1.mixString("abc" , "xyz");
 
+        /*
+        Given a string and an int n, return a string made of n repetitions of the last n characters of the string. You may assume that n is between 0 and the length of the string, inclusive.
+         */
+        //RepeatEnd ob1 = new RepeatEnd();
+        //ob1.repeatEnd("Hello",3);
 
+        /*
+        Given a string and an int n, return a string made of the first n characters of the string, followed by the first n-1 characters of the string, and so on. You may assume that n is between 0 and the length of the string, inclusive (i.e. n >= 0 and n <= str.length()).
+         */
+        //RepeatFront ob1 = new RepeatFront();
+        //ob1.repeatFront("hello",4);
+
+        /*
+        Given two strings, word and a separator sep, return a big string made of count occurrences of the word, separated by the separator string.
+         */
+        //RepeatSeparator ob1 = new RepeatSeparator();
+        //ob1.repeatSeparator("word","x",3);
+
+        /*
+        Given a string, consider the prefix string made of the first N chars of the string. Does that prefix string appear somewhere else in the string? Assume that the string is not empty and that N is in the range 1..str.length().
+         */
+        //PrefixAgain ob1 = new PrefixAgain();
+        //ob1.prefixAgain("abcXYabc",1);
+
+        /*
+        Given a string, does "xyz" appear in the middle of the string? To define middle, we'll say that the number of chars to the left and right of the "xyz" must differ by at most one. This problem is harder than it looks.
+         */
+        //XyzMiddle ob1 = new XyzMiddle();
+        //ob1.xyzMiddle("AAxyzBB");
+
+        /*
+        A sandwich is two pieces of bread with something in between. Return the string that is between the first and last appearance of "bread" in the given string, or return the empty string "" if there are not two pieces of bread.
+         */
+        //GetSandwich ob1 = new GetSandwich();
+        //ob1.getSandwich("breadjambread");
     }
 }
