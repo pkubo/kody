@@ -608,5 +608,47 @@ public class Main {
          */
         //WordEnds ob1 = new WordEnds();
         //ob1.wordEnds("abcXY123XYijk", "XY");
+
+        /*
+        Given a string, count the number of words ending in 'y' or 'z' -- so the 'y' in "heavy" and the 'z' in "fez" count, but not the 'y' in "yellow" (not case sensitive). We'll say that a y or z is at the end of a word if there is not an alphabetic letter immediately following it.
+         */
+        //CountYZ ob1 = new CountYZ();
+        //ob1.countYZ("fez day");
+
+        /*
+        Given two strings, base and remove, return a version of the base string where all instances of the remove string have been removed (not case sensitive). You may assume that the remove string is length 1 or more. Remove only non-overlapping instances, so with "xxx" removing "xx" leaves "x".
+         */
+        //WithoutString ob1 = new WithoutString();
+        //ob1.withoutString("Hello there","llo");
+
+        /*
+        Given a string, return true if the number of appearances of "is" anywhere in the string is equal to the number of appearances of "not" anywhere in the string (case sensitive).
+         */
+        //EqualIsNot ob1 = new EqualIsNot();
+        //ob1.equalIsNot("This is not");
+
+        /*
+        We'll say that a lowercase 'g' in a string is "happy" if there is another 'g' immediately to its left or right. Return true if all the g's in the given string are happy.
+         */
+        //GHappy ob1 = new GHappy();
+        //ob1.gHappy("xxggxx");
+
+        /*
+        We'll say that a "triple" in a string is a char appearing three times in a row. Return the number of triples in the given string. The triples may overlap.
+         */
+        //CountTriple ob1 = new CountTriple();
+        //ob1.countTriple("abcXXXabc");
+
+        /*
+        Given a string, return the sum of the digits 0-9 that appear in the string, ignoring all other characters. Return 0 if there are no digits in the string.
+         */
+        //SumDigits ob1 = new SumDigits();
+        //ob1.sumDigits("aa1bc2d3");
+
+
+
+
+
+
     }
 }
