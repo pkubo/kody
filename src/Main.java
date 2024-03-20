@@ -645,10 +645,35 @@ public class Main {
         //SumDigits ob1 = new SumDigits();
         //ob1.sumDigits("aa1bc2d3");
 
+        /*
+        Given a string, return the longest substring that appears at both the beginning and end of the string without overlapping. For example, sameEnds("abXab") is "ab".
+         */
+        //SameEnds ob1 = new SameEnds();
+        //ob1.sameEnds("abXYab");
 
+        /*
+        Given a string, look for a mirror image (backwards) string at both the beginning and end of the given string. In other words, zero or more characters at the very begining of the given string, and at the very end of the string in reverse order (possibly overlapping). For example, the string "abXYZba" has the mirror end "ab".
+         */
+        //MirrorEnds ob1 = new MirrorEnds();
+        //ob1.mirrorEnds("abXYZba");
 
+        /*
+        Given a string, return the length of the largest "block" in the string. A block is a run of adjacent chars that are the same.
+         */
+        //MaxBlock ob1 = new MaxBlock();
+        //ob1.maxBlock("hoopla");
 
+        /*
+        Given a string, return the sum of the numbers appearing in the string, ignoring all other characters. A number is a series of 1 or more digit chars in a row.
+         */
+        //SumNumbers ob1 = new SumNumbers();
+        //ob1.sumNumbers("abc123xyz");
 
+        /*
+        Given a string, return a string where every appearance of the lowercase word "is" has been replaced with "is not". The word "is" should not be immediately preceeded or followed by a letter -- so for example the "is" in "this" does not count.
+         */
+        //NotReplace ob1 = new NotReplace();
+        //ob1.notReplace("is test");
 
     }
 }
