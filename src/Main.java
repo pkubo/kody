@@ -747,16 +747,41 @@ public class Main {
         //Less20 ob1 = new Less20();
         //ob1.less20(20);
 
+        /*
+        Given a non-negative number "num", return true if num is within 2 of a multiple of 10.
+         */
+        //NearTen ob1 = new NearTen();
+        //ob1.nearTen(12);
 
+        /*
+        Given 2 ints, a and b, return their sum. However, "teen" values in the range 13..19 inclusive, are extra lucky. So if either value is a teen, just return 19.
+         */
+        //TeenSum ob1 = new TeenSum();
+        //ob1.teenSum(3,4);
 
+        /*
+        Your cell phone rings. Return true if you should answer it. Normally you answer, except in the morning you only answer if it is your mom calling. In all cases, if you are asleep, you do not answer.
+         */
+        //AnswerCell ob1 = new AnswerCell();
+        //ob1.answerCell(false,false,false);
 
+        /*
+        We are having a party with amounts of tea and candy. Return the int outcome of the party encoded as 0=bad, 1=good, or 2=great. A party is good (1) if both tea and candy are at least 5. However, if either tea or candy is at least double the amount of the other one, the party is great (2). However, in all cases, if either tea or candy is less than 5, the party is always bad (0).
+         */
+        //TeaParty ob1 = new TeaParty();
+        //ob1.teaParty(6,8);
 
+        /*
+        Given a string str, if the string starts with "f" return "Fizz". If the string ends with "b" return "Buzz". If both the "f" and "b" conditions are true, return "FizzBuzz". In all other cases, return the string unchanged.
+         */
+        //FizzString ob1 = new FizzString();
+        //ob1.fizzString("fig");
 
-
-
-
-
-
+        /*
+        Given an int n, return the string form of the number followed by "!". So the int 6 yields "6!". Except if the number is divisible by 3 use "Fizz" instead of the number, and if the number is divisible by 5 use "Buzz", and if divisible by both 3 and 5, use "FizzBuzz".
+         */
+        FizzString2 ob1 = new FizzString2();
+        ob1.fizzString2(2);
 
     }
 }
